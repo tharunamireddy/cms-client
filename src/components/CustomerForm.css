@@ -1,0 +1,92 @@
+.customer-form-container {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    background-color: #ffffff;
+  }
+  
+  .customer-form-container h1 {
+    margin-bottom: 20px;
+    color: #333;
+    text-align: center;
+  }
+  
+  .customer-form-container .error {
+    color: red;
+    margin-bottom: 20px;
+    text-align: center;
+  }
+  
+  .customer-form-container .success {
+    color: green;
+    margin-bottom: 20px;
+    text-align: center;
+    animation: fadeIn 2s;
+  }
+  
+  .customer-details {
+    margin-bottom: 20px;
+  }
+  
+  .customer-details h2 {
+    border-bottom: 2px solid #ddd;
+    padding-bottom: 10px;
+    color: #444;
+  }
+  
+  .customer-details .details {
+    background-color: #f9f9f9;
+    padding: 15px;
+    border-radius: 5px;
+    border: 1px solid #ddd;
+  }
+  
+  .customer-details .details p {
+    margin: 5px 0;
+  }
+  
+  .form-section {
+    margin-bottom: 20px;
+  }
+  
+  .customer-form label {
+    display: block;
+    margin-bottom: 10px;
+    color: #333;
+  }
+  
+  .customer-form input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    box-sizing: border-box;
+  }
+  
+  .submit-button {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    background-color: #007bff;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s, transform 0.3s;
+  }
+  
+  .submit-button:hover {
+    background-color: #0056b3;
+    transform: scale(1.05);
+  }
+  
+  @keyframes fadeIn {
+    from {
+      opacity: 0;
+    }
+    to {
+      opacity: 1;
+    }
+  }
+  
