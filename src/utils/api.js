@@ -1,6 +1,6 @@
 import axios from 'axios';
 
-const API_URL = 'http://localhost:5000/api/customers';
+const API_URL = 'https://cms-server-7gd8.onrender.com/api/customers';
 
 export const getAllCustomers = async () => {
   try {
